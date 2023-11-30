@@ -332,6 +332,7 @@ function MyTabs2() {
           width: '45%',
           left: '2.5%',
           borderRadius: 50,
+          backgroundColor: Colors.primary,
         },
 
         style: {
