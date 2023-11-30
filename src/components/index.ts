@@ -1,0 +1,10 @@
+export { default as Brand } from './Brand/Brand';
+export { default as Gap } from './Gap';
+export { default as Button } from './Button';
+export { default as Benners } from './Banners';
+export { default as BennerSlider} from './BennerSlider/BenerSlider';
+export { default as Cardlist2} from './Card/Cardlist2';
+export { default as CardProtecton } from './CardsProtecton/CardProtecton';
+export { default as PaginationItem } from './PaginationItem';
+export { default as Modal12} from './Modal12';
+export { default as DefaultModalContent} from './DefaultModalContent';
