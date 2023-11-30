@@ -63,22 +63,17 @@ const Home = (props: any) => {
     }, 2000);
   }, []);
   return (
-    <SafeAreaView
+    <View
       style={{
         flex: 1,
         height: hp('100%'),
         width: wp('100%'),
       }}
     >
-      <StatusBar
-        translucent={false}
-        backgroundColor={Colors.primary}
-        barStyle={'dark-content'}
-      />
       <View
         style={[
           {
-            paddingTop: responsiveHeight(5),
+            paddingTop: responsiveHeight(10),
             backgroundColor: Colors.primary,
             paddingHorizontal: responsiveScreenWidth(3),
           },
@@ -219,7 +214,7 @@ const Home = (props: any) => {
 
         <Gap height={100} />
       </ScrollView>
-    </SafeAreaView>
+    </View>
   );
 };
 
