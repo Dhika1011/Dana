@@ -39,6 +39,8 @@ import {
 } from 'react-native-responsive-screen';
 import Dhika12 from '@/components/Courousel1';
 import Courousel1 from '@/components/Courousel1';
+import { useDispatch } from 'react-redux';
+import { changeHomeModal } from '@/store/homeModal';
 
 const Home = (props: any) => {
   const {
@@ -55,6 +57,7 @@ const Home = (props: any) => {
   const [refreshing, setRefreshing] = React.useState(false);
   const STYLES = ['default', 'dark-content', 'light-content'] as const;
   const TRANSITIONS = ['fade', 'slide', 'none'] as const;
+  const dispatch = useDispatch();
 
   const onRefresh = React.useCallback(() => {
     setRefreshing(true);
@@ -101,14 +104,16 @@ const Home = (props: any) => {
             />
           </TouchableOpacity>
           <Gap width={170} />
-          <Image
-            source={Images.icons.IconPesan}
-            style={{
-              height: 25,
-              width: 25,
-              top: responsiveHeight(-3),
-            }}
-          />
+          <TouchableOpacity>
+            <Image
+              source={Images.icons.IconPesan}
+              style={{
+                height: 25,
+                width: 25,
+                top: responsiveHeight(-3),
+              }}
+            />
+          </TouchableOpacity>
         </View>
       </View>
       <ScrollView
@@ -136,7 +141,11 @@ const Home = (props: any) => {
               marginVertical: 10,
             }}
             renderItem={({ item }) => (
-              <TouchableOpacity>
+              <TouchableOpacity
+                onPress={() =>
+                  dispatch(changeHomeModal({ isVisibleModal: true }))
+                }
+              >
                 <Image
                   source={item.images}
                   style={{ width: 35, height: 35, alignSelf: 'center' }}

@@ -45,7 +45,7 @@ const ViewAll = (props: any) => {
   const [filter, setFilter] = useState([
     { namaFilter: 'Semua' },
     { namaFilter: 'My Favorite' },
-    { namaFilter: 'Ticket Booking' },
+    { namaFilter: 'Daily' },
     { namaFilter: 'Bills' },
     { namaFilter: 'Ticket Booking' },
   ]);
@@ -55,28 +55,39 @@ const ViewAll = (props: any) => {
   return (
     <View style={{ flex: 1, backgroundColor: Colors.Background }}>
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
       >
         <FlatList
-          horizontal
+          horizontal={true}
           data={filter}
+          showsHorizontalScrollIndicator={false}
           renderItem={({ item, index }) => (
             <TouchableOpacity
               onPress={() => setActiveIndex(index)}
               style={{
                 borderWidth: 1,
-                borderColor: activeIndex == index ? Colors.primary : '#fff',
+                borderColor:
+                  activeIndex == index ? Colors.primary : Colors.white,
                 marginHorizontal: 5,
                 marginTop: 10,
                 backgroundColor: Colors.white,
-                elevation: 2,
                 height: 35,
                 marginBottom: 10,
                 paddingHorizontal: 20,
                 borderRadius: 50,
                 justifyContent: 'center',
+                shadowColor: '#000',
+                shadowOffset: {
+                  width: 0,
+                  height: 2,
+                },
+                shadowOpacity: 0.25,
+                shadowRadius: 3.84,
+
+                elevation: 3,
               }}
             >
               <Text style={{ justifyContent: 'center' }}>

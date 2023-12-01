@@ -196,6 +196,7 @@ function Bisnis(params: any) {
         }}
       ></View>
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
@@ -297,7 +298,6 @@ function Bisnis(params: any) {
           <CardBisnis />
         </View>
       </ScrollView>
-      <Gap height={50} />
     </View>
   );
 }
