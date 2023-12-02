@@ -193,8 +193,8 @@ function Completed(params: any) {
             </TouchableOpacity>
           )}
         />
+        <Gap height={20} />
       </ScrollView>
-      <Gap height={50} />
     </View>
   );
 }

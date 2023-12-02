@@ -104,7 +104,7 @@ const Home = (props: any) => {
             />
           </TouchableOpacity>
           <Gap width={170} />
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => navigation.navigate('Inbox')}>
             <Image
               source={Images.icons.IconPesan}
               style={{

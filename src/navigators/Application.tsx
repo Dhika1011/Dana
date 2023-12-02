@@ -14,6 +14,7 @@ import {
   DanaNews,
   Feed,
   InProgres,
+  Inbox,
   Startup,
   Tixid,
   Vidio,
@@ -125,6 +126,21 @@ const ApplicationNavigator = () => {
             options={{
               headerShown: true,
               headerTitle: 'Feed',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Inbox"
+            component={Inbox}
+            options={{
+              headerShown: true,
+              headerTitle: 'Inbox',
               headerTintColor: colors.background,
               headerPressColor: colors.primary,
               headerBackTitleStyle: Fonts.textBold,

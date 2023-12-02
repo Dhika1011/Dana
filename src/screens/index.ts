@@ -13,6 +13,7 @@ export { default as Vidio} from './Vidio/Vidio';
 export { default as DanaNews} from './DanaNews/DanaNews';
 export { default as Tixid} from './TixId/TixId';
 export { default as Feed} from './Feed/Feed';
+export { default as Inbox} from './Inbox/Inbox';
 
 
 

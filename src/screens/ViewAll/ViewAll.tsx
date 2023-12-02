@@ -43,7 +43,7 @@ const ViewAll = (props: any) => {
     }, 2000);
   }, []);
   const [filter, setFilter] = useState([
-    { namaFilter: 'Semua' },
+    { namaFilter: 'All' },
     { namaFilter: 'My Favorite' },
     { namaFilter: 'Daily' },
     { namaFilter: 'Bills' },
