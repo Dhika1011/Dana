@@ -39,4 +39,9 @@ export const Datainbox = [
     desc: 'Yay, FREE admin fee for send\n money below Rp50K!\n Lets use DANA now',
     images: require('../../theme/assets/images/Time.png'),
   },
+  {
+    id: '9',
+    desc: 'Yay, FREE admin fee for send\n money below Rp50K!\n Lets use DANA now',
+    images: require('../../theme/assets/images/pengembalian.png'),
+  },
 ];

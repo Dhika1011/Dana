@@ -1,6 +1,8 @@
-import { Gap } from '@/components';
+import { Button, Gap } from '@/components';
+import CardListProfile2 from '@/components/ CardListProfile2';
 import CardBisnis from '@/components/CardBisnis';
 import CardKeuntungan from '@/components/CardKeuntungan';
+import CardListProfile from '@/components/CardListProfile';
 import CardMenu2 from '@/components/CardMenu2';
 import CardProfile from '@/components/CardProfile';
 import { DataCompleated } from '@/components/DataCompleated';
@@ -51,7 +53,7 @@ function Personal(params: any) {
     <View
       style={{
         flex: 1,
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.Background,
       }}
     >
       <View
@@ -141,8 +143,8 @@ function Personal(params: any) {
         <View
           style={{
             backgroundColor: Colors.white,
-            marginHorizontal: 15,
-            padding: 30,
+            marginHorizontal: 20,
+            padding: 20,
             borderRadius: 10,
             height: responsiveScreenHeight(37),
             // marginTop: responsiveHeight(-6),
@@ -159,6 +161,60 @@ function Personal(params: any) {
         >
           <CardProfile />
         </View>
+        <View
+          style={{
+            backgroundColor: Colors.white,
+            marginHorizontal: 20,
+            borderRadius: 10,
+            top: responsiveHeight(-4),
+            // marginTop: responsiveHeight(-6),
+            shadowColor: '#000',
+            shadowOffset: {
+              width: 0,
+              height: 2,
+            },
+            shadowOpacity: 0.25,
+            shadowRadius: 3.84,
+            elevation: 5,
+          }}
+        >
+          <CardListProfile />
+        </View>
+        <View
+          style={{
+            backgroundColor: Colors.white,
+            marginHorizontal: 20,
+            borderRadius: 10,
+            top: responsiveHeight(-1),
+            // marginTop: responsiveHeight(-6),
+            shadowColor: '#000',
+            shadowOffset: {
+              width: 0,
+              height: 2,
+            },
+            shadowOpacity: 0.25,
+            shadowRadius: 3.84,
+            elevation: 5,
+          }}
+        >
+          <CardListProfile2 />
+        </View>
+        <Gap height={15} />
+        <View>
+          <Text
+            style={[
+              Fonts.textBold,
+              { color: Colors.gray, fontSize: 13, textAlign: 'center' },
+            ]}
+          >
+            Version 2.47.0
+          </Text>
+        </View>
+        <Gap height={20} />
+        <View style={{ marginHorizontal: 20 }}>
+          <Button label="LOGOUT" />
+        </View>
+        <Gap height={60} />
       </ScrollView>
     </View>
   );

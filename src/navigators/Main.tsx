@@ -257,7 +257,7 @@ export default MainNavigator;
 const styles = StyleSheet.create({
   tabBarStyle: {
     backgroundColor: Colors.white,
-    height: 80,
+    height: 85,
     borderTopLeftRadius: 18,
     borderTopRightRadius: 18,
     backfaceVisibility: 'hidden',
