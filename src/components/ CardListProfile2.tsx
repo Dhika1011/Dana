@@ -32,7 +32,6 @@ const CardListProfile2 = () => {
         contentContainerStyle={{
           paddingHorizontal: 15,
           borderRadius: 10,
-
           backgroundColor: Colors.white,
         }}
         renderItem={({ item }) => (

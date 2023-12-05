@@ -24,6 +24,24 @@ export default function <C>({ Colors, ...args }: CommonParams<C>) {
         borderRadius: 10,
         paddingStart: 20,
       },
+    }), button2: buttonStyles({ Colors, ...args }),
+    ...StyleSheet.create({
+      backgroundPrimary2: {
+        backgroundColor: Colors.white,
+        borderWidth: 2,
+        borderColor: Colors.primary,
+      },
+      backgroundReset: {
+        backgroundColor: Colors.transparent,
+      },
+      textInput: {
+        backgroundColor: Colors.inputBackground,
+        color: Colors.textGray400,
+        height: 45,
+        borderRadius: 10,
+        paddingStart: 20,
+      },
     }),
   };
+  
 }

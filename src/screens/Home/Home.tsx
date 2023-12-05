@@ -117,6 +117,7 @@ const Home = (props: any) => {
         </View>
       </View>
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }

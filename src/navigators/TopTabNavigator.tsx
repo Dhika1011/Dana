@@ -100,6 +100,7 @@ function Completed(params: any) {
       }}
     >
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }

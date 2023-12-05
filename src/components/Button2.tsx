@@ -6,6 +6,7 @@ import {
 } from 'react-native-gesture-handler';
 
 import { useTheme } from '../hooks';
+import { Colors } from '@/theme/Variables';
 
 type Props = {
   onPress: any;
@@ -37,7 +38,7 @@ function IconRightBordered(props: any) {
   );
 }
 
-const Button = ({
+const Button2 = ({
   mode,
   label,
   disabled,
@@ -59,13 +60,13 @@ const Button = ({
     >
       <View
         style={[
-          mode == 'outline' ? Common.button.outline : Common.button.rounded,
+          mode == 'outline' ? Common.button2.outline2 : Common.button2.rounded2,
           buttonStyle,
         ]}
       >
         {isLoading ? (
           <ActivityIndicator
-            color={Colors.white}
+            color={Colors.primary}
             size={24}
             style={{ alignSelf: 'center' }}
           />
@@ -97,13 +98,13 @@ const Button = ({
     <TouchableOpacity onPress={onPress} disabled={disabled}>
       <View
         style={[
-          mode == 'outline' ? Common.button.outline : Common.button.rounded,
+          mode == 'outline' ? Common.button2.outline2 : Common.button2.rounded2,
           buttonStyle,
         ]}
       >
         {isLoading ? (
           <ActivityIndicator
-            color={Colors.white}
+            color={Colors.primary}
             size={20}
             style={{ alignSelf: 'center' }}
           />
@@ -111,7 +112,9 @@ const Button = ({
           <View
             style={[
               Layout.fill,
-              { width: '100%' },
+              {
+                width: '100%',
+              },
               Layout.row,
               Layout.alignItemsCenter,
               children ? Layout.center : Layout.justifyContentCenter,
@@ -120,7 +123,7 @@ const Button = ({
             <Text
               style={[
                 Fonts.textRegular,
-                { color: Colors.white, fontSize: 14 },
+                { color: Colors.primary, fontSize: 14 },
                 labelStyle,
               ]}
             >
@@ -134,15 +137,19 @@ const Button = ({
   );
 };
 
-Button.defaultProps = {
+Button2.defaultProps = {
   onPress: () => {},
   mode: 'fill',
   label: '',
   disabled: false,
   isLoading: false,
   labelStyle: {},
-  buttonStyle: {},
+  buttonStyle: {
+    borderWidth: 2,
+    borderColor: Colors.primary,
+    backgroundColor: Colors.white,
+  },
   children: null,
 };
 
-export default Button;
+export default Button2;

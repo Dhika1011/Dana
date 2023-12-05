@@ -69,6 +69,6 @@ export const DataBills = [
     id: '12',
     name: 'BPJS',
     images: require('../theme/assets/images/Bpjsnih.png'),
-    Halaman: 'BPJS',
+    Halaman: 'Bpjs',
   },
 ];

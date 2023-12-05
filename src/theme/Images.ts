@@ -24,7 +24,8 @@ export default function ({}: ThemeVariables) {
       LogoLazada:require('./assets/images//LazadaLogo.png'),
       frame:require('./assets/images/Frame.png'),
       Background:require('./assets/images/bg12.png'),
-      Backgroundkoin:require('./assets/images/bg13.png')
+      Backgroundkoin:require('./assets/images/bg13.png'),
+      BackgroundBPJS:require('./assets/images/iconBpjs.png')
     },
     icons: {
       colors: require('./assets/images/colorswatch.png'),
@@ -53,6 +54,7 @@ export default function ({}: ThemeVariables) {
       iconRight:require('./assets/images/right.png'),
       iconUp:require('./assets/images/Up.png'),
       iconDown:require('./assets/images/Down.png'),
+      iconGift:require('./assets/images/giftbox.png'),
     },
   };
 }

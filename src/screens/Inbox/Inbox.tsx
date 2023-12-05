@@ -42,13 +42,30 @@ const Inbox = () => {
   return (
     <View style={{ flex: 1, backgroundColor: Colors.white }}>
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
       >
         <View style={{ marginHorizontal: 5 }}>
-          <CardHights />
+          <View style={{ padding: 10 }}>
+            <Text
+              style={[Fonts.textBold, { color: Colors.Black, fontSize: 16 }]}
+            >
+              Highlights
+            </Text>
+          </View>
+          <View style={{ marginHorizontal: 5, top: -3 }}>
+            <CardHights />
+          </View>
           <View>
+            <View style={{ padding: 10 }}>
+              <Text
+                style={[Fonts.textBold, { color: Colors.Black, fontSize: 16 }]}
+              >
+                Today
+              </Text>
+            </View>
             <FlatList
               data={Datainbox}
               keyExtractor={item => item.id}
@@ -91,6 +108,19 @@ const Inbox = () => {
                         </Text>
                       </View>
                     </View>
+                    <Gap height={6} />
+                    <Text
+                      style={[
+                        Fonts.textRegular,
+                        {
+                          color: Colors.textGray400,
+                          fontSize: 12,
+                          textAlign: 'justify',
+                        },
+                      ]}
+                    >
+                      {item.day}
+                    </Text>
                   </View>
                 </TouchableOpacity>
               )}

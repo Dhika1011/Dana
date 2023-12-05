@@ -21,6 +21,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import Button2 from '../Button2';
 
 const Cardlist2 = () => {
   const {
@@ -45,7 +46,7 @@ const Cardlist2 = () => {
         <Text style={[Fonts.textBold]}>{Data3.nama}</Text>
         <Gap width={20} />
         <View style={{ marginHorizontal: responsiveHeight(12), marginTop: -3 }}>
-          <Button label="promo" />
+          <Button2 label="Promo" />
         </View>
       </View>
       <View style={{ top: responsiveHeight(-4), marginLeft: -10 }}>

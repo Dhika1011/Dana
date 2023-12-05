@@ -16,7 +16,7 @@ export default function <C>({ Colors, Gutters, Layout }: CommonParams<C>) {
     ...Layout.center,
     ...Gutters.regularHPadding,
     height: 40,
-    backgroundColor: Colors.primary,
+    backgroundColor: Colors.white,
   };
   const rounded2 = {
     ...base,
@@ -56,7 +56,7 @@ export default function <C>({ Colors, Gutters, Layout }: CommonParams<C>) {
     },
     outline2: {
       ...base2,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       borderWidth: 2,
       borderColor: Colors.primary,
     },
@@ -68,7 +68,7 @@ export default function <C>({ Colors, Gutters, Layout }: CommonParams<C>) {
     },
     outlineRounded2: {
       ...rounded2,
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.white,
       borderWidth: 2,
       borderColor: Colors.primary,
     },

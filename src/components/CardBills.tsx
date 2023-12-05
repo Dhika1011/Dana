@@ -19,7 +19,7 @@ import { Colors } from '@/theme/Variables';
 import { DataTiket } from './DataFavorit';
 import { DataBills } from './DataBills';
 
-const CardBills = () => {
+const CardBills = (props: any) => {
   const {
     Common,
     Fonts,
@@ -44,7 +44,10 @@ const CardBills = () => {
         numColumns={4} // Mengatur jumlah kolom menjadi 2
         keyExtractor={item => item.id}
         renderItem={({ item }) => (
-          <TouchableOpacity style={styles.listItem}>
+          <TouchableOpacity
+            style={styles.listItem}
+            onPress={() => navigation.navigate(item.Halaman)}
+          >
             <View>
               <Image source={item.images} style={{ width: 35, height: 35 }} />
             </View>

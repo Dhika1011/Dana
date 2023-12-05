@@ -64,6 +64,7 @@ function Personal(params: any) {
         }}
       ></View>
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }

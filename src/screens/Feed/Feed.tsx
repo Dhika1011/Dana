@@ -40,6 +40,7 @@ const Feed = (props: any) => {
   return (
     <View style={{ flex: 1 }}>
       <ScrollView
+        showsVerticalScrollIndicator={false}
         refreshControl={
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }

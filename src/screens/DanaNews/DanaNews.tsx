@@ -30,6 +30,7 @@ const DanaNews = (props: any) => {
   }, []);
   return (
     <ScrollView
+      showsVerticalScrollIndicator={false}
       refreshControl={
         <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
       }

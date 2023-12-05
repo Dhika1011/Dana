@@ -13,6 +13,7 @@ import {
   responsiveScreenWidth,
 } from 'react-native-responsive-dimensions';
 import { DataProtection } from '../DataProtection';
+import Button2 from '../Button2';
 
 const CardProtecton = () => {
   const {
@@ -50,7 +51,7 @@ const CardProtecton = () => {
             marginLeft: responsiveScreenWidth(-1),
           }}
         >
-          <Button label="Learn More" />
+          <Button2 label="Learn More" />
         </View>
         <Gap height={10} />
       </View>

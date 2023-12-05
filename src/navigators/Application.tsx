@@ -10,6 +10,7 @@ import {
 } from '@react-navigation/native';
 import {
   Apple,
+  Bpjs,
   Completed,
   DanaNews,
   Feed,
@@ -141,6 +142,21 @@ const ApplicationNavigator = () => {
             options={{
               headerShown: true,
               headerTitle: 'Inbox',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Bpjs"
+            component={Bpjs}
+            options={{
+              headerShown: true,
+              headerTitle: 'Bpjs',
               headerTintColor: colors.background,
               headerPressColor: colors.primary,
               headerBackTitleStyle: Fonts.textBold,

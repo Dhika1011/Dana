@@ -20,6 +20,8 @@ export const DataFotoFeed = [
     name: 'Bunga',
     images: require('../../theme/assets/images/Bunga1.png'),
     des: 'telah melakukan pembayaran Caffe Shop',
+    gamabar: require('../../theme/assets/images/coffee.png'),
+    des2: 'Caffe Shop',
   },
   {
     id: '4',
@@ -53,7 +55,9 @@ export const DataFotoFeed = [
     id: '8',
     name: 'Qirana',
     images: require('../../theme/assets/images/Qirana.png'),
-    des: 'telah melakukan pembayaran Iuran rumah',
+    des: 'telah melakukan pembayaran BPJS kesehatan ',
+    gamabar: require('../../theme/assets/images/Bpjsnih.png'),
+    des2: 'BPJS Kesehatan',
   },
   {
     id: '9',
@@ -65,7 +69,9 @@ export const DataFotoFeed = [
     id: '10',
     name: 'Dylana',
     images: require('../../theme/assets/images/Dylana.png'),
-    des: 'telah melakukan pembayaran Shopiee',
+    des: 'telah melakukan mengirim Dana ke teman',
+    gamabar: require('../../theme/assets/images/giftbox.png'),
+    des2: 'Gift to Dana',
   },
   {
     id: '11',

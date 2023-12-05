@@ -19,6 +19,8 @@ import {
 import { DataList } from './DataList';
 import { responsiveHeight } from 'react-native-responsive-dimensions';
 import Buttons from '@/theme/components/Buttons';
+import Button2 from './Button2';
+import ButtonCustom from './ButtunCustom';
 
 const CardList = (props: any) => {
   const {
@@ -38,8 +40,8 @@ const CardList = (props: any) => {
       <View style={{ flexDirection: 'row' }}>
         <Text style={[Fonts.textBold]}>What's New</Text>
         <Gap width={20} />
-        <View style={{ marginHorizontal: responsiveHeight(12), marginTop: -3 }}>
-          <Button label="promo" />
+        <View style={{ marginHorizontal: responsiveHeight(10), marginTop: -3 }}>
+          <ButtonCustom label="View Promos" />
         </View>
       </View>
       <View style={{ marginTop: -17 }}>
@@ -72,7 +74,7 @@ const CardList = (props: any) => {
         )}
       />
       <View style={{ marginHorizontal: 70 }}>
-        <Button
+        <Button2
           label="View All News"
           onPress={() => navigation.navigate('DanaNews')}
         />

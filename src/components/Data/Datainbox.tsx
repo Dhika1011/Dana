@@ -3,21 +3,25 @@ export const Datainbox = [
     id: '1',
     desc: 'Congrats, you received a\n new voucher! Lets check it out.',
     images: require('../../theme/assets/images/Danani.png'),
+    day: 'Today,19.08',
   },
   {
     id: '2',
     desc: 'Your voucher is about to\n expire, hurry and use it now!',
     images: require('../../theme/assets/images/ticket.png'),
+    day: 'Today,19.03',
   },
   {
     id: '3',
     desc: 'Payment for BPJS bill is\n successful! Check details here',
     images: require('../../theme/assets/images/Bpjsnih.png'),
+    day: 'Today,15.03',
   },
   {
     id: '4',
     desc: 'Yay, FREE admin fee for send\n money below Rp50K!\n Lets use DANA now',
     images: require('../../theme/assets/images/Time.png'),
+    day: 'Today,10.00',
   },
   {
     id: '5',

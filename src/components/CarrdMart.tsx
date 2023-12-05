@@ -21,6 +21,7 @@ import {
   widthPercentageToDP as wp,
   heightPercentageToDP as hp,
 } from 'react-native-responsive-screen';
+import Button2 from './Button2';
 const CarrdMart = () => {
   const {
     Common,
@@ -37,14 +38,21 @@ const CarrdMart = () => {
   return (
     <View style={{ flex: 1, height: hp('100%'), width: wp('80%') }}>
       <View style={{ flexDirection: 'row' }}>
-        <Text style={[Fonts.textBold]}>What's New</Text>
-        <Gap width={20} />
+        <Text style={[Fonts.textBold]}>Nearby</Text>
+        <Gap width={66} />
         <View style={{ marginHorizontal: responsiveHeight(12), marginTop: -3 }}>
-          <Button label="promo" />
+          <Button2 label="Promo" />
         </View>
       </View>
       <View style={{ marginTop: -17 }}>
-        <Text>The best news of the week!</Text>
+        <Text
+          style={[
+            Fonts.textRegular,
+            { fontSize: 11, color: Colors.circleButtonColor },
+          ]}
+        >
+          Find Dana merchints in your area!
+        </Text>
       </View>
       <Gap height={10} />
       <FlatList
