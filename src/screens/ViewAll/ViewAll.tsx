@@ -23,6 +23,7 @@ import {
 import { FlatList } from 'react-native';
 import { DataBelanja } from '@/components/DataBelanja';
 import { TouchableOpacity } from 'react-native';
+import CardServices from '@/components/CardServices';
 
 const ViewAll = (props: any) => {
   const {
@@ -47,6 +48,7 @@ const ViewAll = (props: any) => {
     { namaFilter: 'My Favorite' },
     { namaFilter: 'Daily' },
     { namaFilter: 'Bills' },
+    { namaFilter: 'Services' },
     { namaFilter: 'Ticket Booking' },
   ]);
 
@@ -123,6 +125,14 @@ const ViewAll = (props: any) => {
         {(activeIndex == 4 || activeIndex == 0) && (
           <>
             <Gap height={7} />
+            <View style={styles.card2}>
+              <CardServices />
+            </View>
+          </>
+        )}
+        {(activeIndex == 5 || activeIndex == 0) && (
+          <>
+            <Gap height={7} />
             <View style={styles.card}>
               <CardTiket />
             </View>
@@ -158,6 +168,22 @@ const styles = StyleSheet.create({
     padding: 30,
     borderRadius: 10,
     height: hp('50%'),
+    // marginTop: responsiveHeight(-6),
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  card2: {
+    backgroundColor: Colors.white,
+    marginHorizontal: 15,
+    padding: 30,
+    borderRadius: 10,
+    height: hp('21%'),
     // marginTop: responsiveHeight(-6),
     shadowColor: '#000',
     shadowOffset: {

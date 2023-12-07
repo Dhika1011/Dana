@@ -13,13 +13,24 @@ import {
   Bpjs,
   Completed,
   DanaNews,
+  Esamsat,
+  Etilang,
   Feed,
+  Games,
+  Gas,
   InProgres,
   Inbox,
+  Lazada,
+  MyBills,
+  PenerimaNegara,
+  PenerimaNegara2,
   Startup,
+  Telkom,
   Tixid,
   Vidio,
   ViewAll,
+  WaterDetail,
+  Watter,
 } from '../screens';
 import { useTheme } from '../hooks';
 import MainNavigator from './Main';
@@ -62,6 +73,111 @@ const ApplicationNavigator = () => {
             }}
           />
           <Stack.Screen
+            name="Telkom"
+            component={Telkom}
+            options={{
+              headerShown: true,
+              headerTitle: 'Telkom',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Watter"
+            component={Watter}
+            options={{
+              headerShown: true,
+              headerTitle: 'Watter',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="PenerimaNegara"
+            component={PenerimaNegara}
+            options={{
+              headerShown: true,
+              headerTitle: 'Penerima Negara',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="WaterDetail"
+            component={WaterDetail}
+            options={{
+              headerShown: true,
+              headerTitle: 'WaterDetail',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Esamsat"
+            component={Esamsat}
+            options={{
+              headerShown: true,
+              headerTitle: 'E-Samsat',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Lazada"
+            component={Lazada}
+            options={{
+              headerShown: true,
+              headerTitle: 'Lazada',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="PenerimaNegara2"
+            component={PenerimaNegara2}
+            options={{
+              headerShown: true,
+              headerTitle: 'Penerima Negara',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
             name="Apple"
             component={Apple}
             options={{
@@ -82,6 +198,36 @@ const ApplicationNavigator = () => {
             options={{
               headerShown: true,
               headerTitle: 'Vidio',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Gas"
+            component={Gas}
+            options={{
+              headerShown: true,
+              headerTitle: 'Gas',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="Games"
+            component={Games}
+            options={{
+              headerShown: true,
+              headerTitle: 'Games',
               headerTintColor: colors.background,
               headerPressColor: colors.primary,
               headerBackTitleStyle: Fonts.textBold,
@@ -156,7 +302,22 @@ const ApplicationNavigator = () => {
             component={Bpjs}
             options={{
               headerShown: true,
-              headerTitle: 'Bpjs',
+              headerTitle: 'Bpjs Kesehatan',
+              headerTintColor: colors.background,
+              headerPressColor: colors.primary,
+              headerBackTitleStyle: Fonts.textBold,
+              headerStyle: {
+                backgroundColor: colors.primary,
+              },
+              ...TransitionPresets.RevealFromBottomAndroid,
+            }}
+          />
+          <Stack.Screen
+            name="MyBills"
+            component={MyBills}
+            options={{
+              headerShown: true,
+              headerTitle: 'MyBills',
               headerTintColor: colors.background,
               headerPressColor: colors.primary,
               headerBackTitleStyle: Fonts.textBold,

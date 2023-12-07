@@ -3,6 +3,7 @@ import { ThemeVariables } from '../../@types/theme';
 export default function ({}: ThemeVariables) {
   return {
     logo: require('./assets/images/tom_light.png'),
+    
     sparkles: {
       topLeft: require('./assets/images/sparkles-top-left.png'),
       top: require('./assets/images/sparkles-top.png'),
@@ -25,7 +26,25 @@ export default function ({}: ThemeVariables) {
       frame:require('./assets/images/Frame.png'),
       Background:require('./assets/images/bg12.png'),
       Backgroundkoin:require('./assets/images/bg13.png'),
-      BackgroundBPJS:require('./assets/images/iconBpjs.png')
+      BackgroundBPJS:require('./assets/images/iconBpjs.png'),
+      BackgroundDanaBills:require('./assets/images/DanaBills.png'),
+      BackgroundIcomers:require('./assets/images/Iconicomers.png'),
+      BackgroundPulsa:require('./assets/images/iconPulsa.png'),
+      BackgroundSpill:require('./assets/images/Bgspill.png'),
+      BackgroundGas:require('./assets/images/BackgroundGas.png'),
+      BackgroundTelkom:require('./assets/images/BackgroundTelkom.png'),
+      BackgroundParkir1:require('./assets/images/BacgroundParlir1.png'),
+      BackgroundParrkir2:require('./assets/images/BackgroundParkir2.png'),
+      BackgroundWatter:require('./assets/images/IconWatter2.png'),
+      BackgroundWatter2:require('./assets/images/water2.png'),
+      BackgroundWatter3:require('./assets/images/water3.png'),
+      BackgroundBpjs:require('./assets/images/KartuBPJS.png'),
+      Strukindighome:require('./assets/images/bayarindihome.jpeg'),
+      StrukListrik:require('./assets/images/strukListrik.jpeg'),
+     StrukAir:require('./assets/images/STRUKbayarair.jpeg'),
+     StrukGas:require('./assets/images/pembayarngas.jpeg'),
+     Samsat:require('./assets/images/Samsat12.png'),
+     Etilang:require('./assets/images/Password.png'),
     },
     icons: {
       colors: require('./assets/images/colorswatch.png'),
@@ -55,6 +74,11 @@ export default function ({}: ThemeVariables) {
       iconUp:require('./assets/images/Up.png'),
       iconDown:require('./assets/images/Down.png'),
       iconGift:require('./assets/images/giftbox.png'),
+      iconInformasion:require('./assets/images/information12.png'),
+      iconInformasion2:require('./assets/images/information2.png'),
+      iconTanya:require('./assets/images/question2.png'),
+      iconDjp1:require('./assets/images/djp1.png'),
+      iconDjp2:require('./assets/images/djp2.png'),
     },
   };
 }

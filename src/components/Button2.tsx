@@ -123,7 +123,7 @@ const Button2 = ({
             <Text
               style={[
                 Fonts.textRegular,
-                { color: Colors.primary, fontSize: 14 },
+                { color: Colors.primary, fontSize: 12 },
                 labelStyle,
               ]}
             >

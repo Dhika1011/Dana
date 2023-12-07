@@ -4,12 +4,14 @@ export const DataNews = [
     des: '#BukanDompetBiasa',
     images: require('../theme/assets/images/Bukadompet.png'),
     des1: 'Semua Transaki Bisa Di Dana',
+    halaman: 'L',
   },
   {
     id: '2',
     des: 'Bye Modus Penipu',
     images: require('../theme/assets/images/Penipu.png'),
     des1: 'Cek tips aman DANA yuk!',
+    halaman: 'La',
   },
 
   {
@@ -17,6 +19,7 @@ export const DataNews = [
     des: 'Serba Diskon Lazada',
     images: require('../theme/assets/images/LazadaLogo.png'),
     des1: 'Pakai DANA Diskon s/d Rp40RP!',
+    halaman: 'Lazada',
   },
   {
     id: '4',

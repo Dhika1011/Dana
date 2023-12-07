@@ -31,7 +31,10 @@ const CardNews = () => {
         keyExtractor={item => item.id}
         contentContainerStyle={styles.page}
         renderItem={({ item }) => (
-          <TouchableOpacity style={styles.Page1}>
+          <TouchableOpacity
+            style={styles.Page1}
+            onPress={() => navigation.navigate(item.halaman)}
+          >
             <View style={[Layout.row]}>
               <Image
                 source={item.images}

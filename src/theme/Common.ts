@@ -34,13 +34,18 @@ export default function <C>({ Colors, ...args }: CommonParams<C>) {
       backgroundReset: {
         backgroundColor: Colors.transparent,
       },
-      textInput: {
-        backgroundColor: Colors.inputBackground,
-        color: Colors.textGray400,
-        height: 45,
-        borderRadius: 10,
-        paddingStart: 20,
-      },
+      textInput: (borderColor: string,backgroundColor:string) => ({
+        // maxWidth:'100%',
+        flexGrow:1,
+        borderWidth: 2,
+        borderColor: borderColor,
+        backgroundColor: backgroundColor,
+        color: Colors.text,
+        fontFamily: 'Manrope-Regular',
+        minHeight: 50,
+        paddingHorizontal: 10,
+        borderRadius: 8,
+      }),
     }),
   };
   

@@ -53,7 +53,10 @@ const CardList = (props: any) => {
         keyExtractor={item => item.id}
         contentContainerStyle={styles.page1}
         renderItem={({ item }) => (
-          <TouchableOpacity style={{ marginBottom: 10 }}>
+          <TouchableOpacity
+            style={{ marginBottom: 10 }}
+            onPress={() => navigation.navigate(item.halaman)}
+          >
             <View style={[Layout.row]}>
               <Image
                 source={item.images}

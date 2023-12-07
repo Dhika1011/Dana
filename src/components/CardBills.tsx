@@ -16,8 +16,7 @@ import Button from './Button';
 import { responsiveHeight } from 'react-native-responsive-dimensions';
 import { DataCard2 } from './DataCard2';
 import { Colors } from '@/theme/Variables';
-import { DataTiket } from './DataFavorit';
-import { DataBills } from './DataBills';
+import { DataBills } from './Data/DataBills';
 
 const CardBills = (props: any) => {
   const {

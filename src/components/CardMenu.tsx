@@ -48,7 +48,7 @@ const CardMenu = (props: any) => {
         <View
           style={{ marginHorizontal: 180, marginLeft: responsiveHeight(-1) }}
         >
-          <Button label="Ambil" />
+          <Button label="Ambil" onPress={() => navigation.navigate('Lazada')} />
         </View>
       </View>
       <FlatList

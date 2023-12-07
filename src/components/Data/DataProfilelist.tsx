@@ -4,7 +4,7 @@ export const DataProfilelist = [
     judul: 'My Bills',
     images: require('../../theme/assets/images/MyBils.png'),
     gambar: require('../../theme/assets/images/right12.png'),
-    Halaman: 'Semua Transaki Bisa Di Dana',
+    Halaman: 'MyBills',
   },
   {
     id: '2',

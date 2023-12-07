@@ -44,7 +44,7 @@ const CardListProfile = () => {
               paddingVertical: 20,
               marginHorizontal: -8,
             }}
-            onPress={() => navigation.navigate('ViewAll', { item: item })}
+            onPress={() => navigation.navigate(item.Halaman)}
           >
             <View style={[Layout.row, Layout.justifyContentBetween]}>
               <Image source={item.images} style={{ width: 25, height: 25 }} />
