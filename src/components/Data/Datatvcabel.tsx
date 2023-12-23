@@ -1,0 +1,92 @@
+export const Datatvcabel = [
+  {
+    id: '1',
+    judul: 'Arjun Tv',
+    images: require('../../theme/assets/images/arjuna.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '2',
+    judul: 'Bein Sport',
+    images: require('../../theme/assets/images/beinsport.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '3',
+    judul: 'Biznet',
+    images: require('../../theme/assets/images/Biznet.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '4',
+    judul: 'First Media.',
+    images: require('../../theme/assets/images/firstmedia.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '5',
+    judul: 'FOX Sport',
+    images: require('../../theme/assets/images/foxsport.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '6',
+    judul: 'Moji Tv',
+    images: require('../../theme/assets/images/moji.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '7',
+    judul: 'MNC Vision',
+    images: require('../../theme/assets/images/images.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '8',
+    judul: 'My Repuplick',
+    images: require('../../theme/assets/images/myrepuplick.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '9',
+    judul: 'Next ParaBola',
+    images: require('../../theme/assets/images/foxsport.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '10',
+    judul: 'Oke Vision',
+    images: require('../../theme/assets/images/OkeVision.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '11',
+    judul: 'Orange Tv',
+    images: require('../../theme/assets/images/orangetv.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '12',
+    judul: 'Premier League',
+    images: require('../../theme/assets/images/premierliage.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '13',
+    judul: 'Trans Vision',
+    images: require('../../theme/assets/images/transfision.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '14',
+    judul: 'Indovision',
+    images: require('../../theme/assets/images/indovision.jpeg'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+  {
+    id: '15',
+    judul: 'Xl Home',
+    images: require('../../theme/assets/images/xlhome.png'),
+    gambar: require('../../theme/assets/images/right12.png'),
+  },
+];

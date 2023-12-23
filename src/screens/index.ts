@@ -25,6 +25,7 @@ export { default as Esamsat} from './Esamsat/Esamsat';
 export { default as PenerimaNegara2} from './PenerimaNegara2/PenerimaNegara2';
 export { default as Lazada} from './Lazada/Lazada';
 export { default as PenerimaNegara} from './PenerimaNegara/PenerimaNegara';
+export { default as Maps} from './Maps/Maps';
 
 
 
