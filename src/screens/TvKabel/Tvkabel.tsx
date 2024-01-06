@@ -61,7 +61,7 @@ const Tvkabel = (props: any) => {
         >
           <Image
             source={Images.sparkles.BackgroudTv}
-            style={[{ width: 428, height: 87, alignSelf: 'center' }]}
+            style={[{ width: 208, height: 87, alignSelf: 'center' }]}
           />
         </View>
         <View style={[{ marginHorizontal: 10 }]}>

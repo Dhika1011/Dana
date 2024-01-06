@@ -14,7 +14,12 @@ type Props = {
   placeholder?: string;
   isError?: boolean;
   errorMsg?: string;
-  keyboardType?: 'default';
+  keyboardType?:
+    | 'default'
+    | 'email-address'
+    | 'number-pad'
+    | 'phone-pad'
+    | 'visible-password';
   autoCapitalize?: 'characters' | 'none' | 'words' | 'sentences';
   secureTextEntry?: boolean;
 

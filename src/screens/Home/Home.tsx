@@ -41,6 +41,7 @@ import Dhika12 from '@/components/Courousel1';
 import Courousel1 from '@/components/Courousel1';
 import { useDispatch } from 'react-redux';
 import { changeHomeModal } from '@/store/homeModal';
+import LottieView from 'lottie-react-native';
 
 const Home = (props: any) => {
   const {

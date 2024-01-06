@@ -61,46 +61,11 @@ const TvkabelDetail = (props: any) => {
           ]}
         >
           <Image
-            source={Images.sparkles.BackgroudTVKABEL}
+            source={Images.sparkles.BackgroudTv}
             style={[{ width: 208, height: 87, alignSelf: 'center' }]}
           />
         </View>
-        <LinearGradient
-          colors={['#B6BBC4', '#F3EEEA', '#ffffff']}
-          style={styles.linearGradient2}
-        >
-          <Text
-            style={[
-              styles.buttonText,
-              Fonts.textRegular,
-              { color: Colors.Black, fontSize: 11 },
-            ]}
-          >
-            You can update your electronic money
-          </Text>
-          <Text
-            style={[
-              Fonts.textRegular,
-              {
-                margin: 10,
-                top: responsiveHeight(-2),
-                color: Colors.Black,
-                fontSize: 11,
-              },
-            ]}
-          >
-            balance here!
-          </Text>
-          <View
-            style={{
-              marginHorizontal: responsiveHeight(30),
-              top: responsiveHeight(-7),
-              marginRight: 3,
-            }}
-          >
-            <Button label="Update Balance" />
-          </View>
-        </LinearGradient>
+
         <View
           style={{
             marginHorizontal: 20,
@@ -112,7 +77,6 @@ const TvkabelDetail = (props: any) => {
               Fonts.textRegular,
               {
                 margin: 10,
-                top: responsiveHeight(-2),
                 color: Colors.Black,
                 fontSize: 13,
               },

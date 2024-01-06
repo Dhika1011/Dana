@@ -33,7 +33,7 @@ export const DataBills = [
     id: '6',
     name: 'Internet & Cable TV',
     images: require('../../theme/assets/images/internet.png'),
-    Halaman: 'InternetCableTv',
+    Halaman: 'Tvkabel',
   },
   {
     id: '7',
@@ -63,7 +63,7 @@ export const DataBills = [
     id: '11',
     name: 'PLN',
     images: require('../../theme/assets/images/flash.png'),
-    Halaman: 'PLN',
+    Halaman: 'Pln',
   },
   {
     id: '12',

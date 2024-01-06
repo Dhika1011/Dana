@@ -3,7 +3,7 @@ export const DataCard = [
     id: '1',
     name: 'Pulsa & Data',
     images: require('../theme/assets/images/Pulsa.png'),
-    Halaman: 'PulsaData',
+    Halaman: 'Maps',
   },
   {
     id: '2',
@@ -15,7 +15,7 @@ export const DataCard = [
     id: '3',
     name: 'A+Rewards',
     images: require('../theme/assets/images/medal.png'),
-    Halaman: 'A+Rewards',
+    Halaman: 'ARewards',
   },
   {
     id: '4',

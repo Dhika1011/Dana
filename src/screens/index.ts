@@ -26,6 +26,32 @@ export { default as PenerimaNegara2} from './PenerimaNegara2/PenerimaNegara2';
 export { default as Lazada} from './Lazada/Lazada';
 export { default as PenerimaNegara} from './PenerimaNegara/PenerimaNegara';
 export { default as Maps} from './Maps/Maps';
+export { default as Pln} from './Pln/Pln';
+export { default as TvkabelDetail} from './TvkabelDetail/TvkabelDetail';
+export { default as Tvkabel} from './TvKabel/Tvkabel';
+export { default as BankServis} from './BankServis/BankServies';
+export { default as Installment} from './Installment/Installment';
+export { default as InstallmentDetail} from './InstallmentDetail/InstallmentDetail';
+export { default as Money} from './Money/Money';
+export { default as MoneyDetail} from './MoneyDetail/MoneyDetail';
+export { default as Bca} from './Bca/Bca';
+export { default as Danamon} from './Danamon/Danamon';
+export { default as MiniGames} from './MiniGames/MiniGames';
+export { default as ARewards} from './ARewards/ARewards';
+export { default as Electricity} from './Electricity/Electricity';
+export { default as Loyalty} from './Loyalty/Loyalty';
+export { default as LoyaltyDetail} from './LoyaltyDetail/LoyaltyDetail';
+export { default as Ecommerce} from './Ecommerce/Ecommerce';
+export { default as EcommerceDetail} from './EcommerceDetail/EcommerceDetail';
+export { default as SendtoBank} from './SendtoBank/SendtoBank';
+export { default as Maintenance} from './Maintenance/Maintenance';
+export { default as MaintenanceDetail} from './MaintenanceDetail/MaintenanceDetail';
+export { default as Education} from './Education/Education';
+export { default as EducationDetail} from './EducationDetail/EducationDetail';
+export { default as CreditCard} from './CreditCard/CreditCard';
+export { default as CreditCarddDetail} from './CreaditCardDetail/CreaditCardDetail';
+export { default as AddNewBank} from './AddNewBank/AddNewBank';
+export { default as SendtoGroup} from './SendtoGroup/SendtoGroup';
 
 
 

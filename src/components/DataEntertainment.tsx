@@ -45,6 +45,6 @@ export const DataEntertainment = [
     id: '8',
     name: 'Bank',
     images: require('../theme/assets/images/banknih.png'),
-    Halaman: 'Bank',
+    Halaman: 'BankServis',
   },
 ];

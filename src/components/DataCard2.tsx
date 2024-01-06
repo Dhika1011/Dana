@@ -15,7 +15,7 @@ export const DataCard2 = [
     id: '3',
     name: 'A+Rewards',
     images: require('../theme/assets/images/medal.png'),
-    Halaman: 'A+Rewards',
+    Halaman: 'ARewards',
   },
   {
     id: '4',

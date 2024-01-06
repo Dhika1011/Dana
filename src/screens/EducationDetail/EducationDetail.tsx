@@ -57,6 +57,7 @@ const EducationDetail = (props: any) => {
             {
               backgroundColor: Colors.primary,
               paddingHorizontal: responsiveScreenWidth(3),
+              paddingVertical: responsiveScreenWidth(3),
             },
           ]}
         >

@@ -28,7 +28,7 @@ import { DataEcomerrs } from '@/components/Data/DataEcomerrs';
 import { Datatvcabel } from '@/components/Data/Datatvcabel';
 import { DataMaintenance } from '@/components/Data/DataMaintenance';
 
-const Maintenance = () => {
+const Maintenance = (props: any) => {
   const {
     Common,
     Fonts,
